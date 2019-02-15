@@ -14,5 +14,6 @@
   <ItemGroup>
     <PackageReference Include="Q42.HueApi" Version="3.8.3" />
     <PackageReference Include="Q42.HueApi.ColorConverters" Version="3.8.1" />
+    <PackageReference Include="IronPython" Version="2.7.9" />
   </ItemGroup>
 </Project>
