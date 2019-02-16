@@ -9,6 +9,7 @@ namespace Suplanus.MuteToHue
 {
     public class MuteToHue
     {
+        const int SLEEPTIME = 1000;
         const string QUOTE = "\"";
 
         public void Start()
@@ -28,7 +29,7 @@ namespace Suplanus.MuteToHue
                         isMuted = newState; // All OK, set new state
                     }
 
-                    Thread.Sleep(1000);
+                    Thread.Sleep(SLEEPTIME);
                 }
                 catch (Exception ex)
                 {
