@@ -5,7 +5,7 @@ import os
 import logging
 
 HUEBRIDGEIP = "192.168.178.79"
-LIGHTNAME = "OnAir"
+LIGHTNAME = "OnAir" # OnAir # Buro
 
 # Init hue
 logging.basicConfig()
