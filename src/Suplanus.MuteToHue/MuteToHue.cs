@@ -9,7 +9,7 @@ namespace Suplanus.MuteToHue
 {
     public class MuteToHue
     {
-        const int SLEEPTIME = 1000;
+        const int SLEEPTIME = 5000;
         const string QUOTE = "\"";
 
         public void Start()
