@@ -1,16 +1,17 @@
 ﻿using System;
+using System.Threading.Tasks;
 
 namespace Suplanus.MuteToHue
 {
   class Program
   {
-    static void Main(string[] args)
+    static async Task Main(string[] args)
     {
       Console.WriteLine("MuteToHue started");
       try
       {
         MuteToHue muteToHue = new MuteToHue();
-        muteToHue.StartAsync();
+        await muteToHue.StartAsync();
       }
       catch (Exception ex)
       {

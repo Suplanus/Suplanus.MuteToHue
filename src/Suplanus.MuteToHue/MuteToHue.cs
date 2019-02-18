@@ -11,7 +11,9 @@ namespace Suplanus.MuteToHue
     LocatedBridge _bridge;
     ILocalHueClient _client;
 
-    public async void StartAsync()
+    public async
+    Task
+StartAsync()
     {
       Console.WriteLine("Init Hue...");
       await InitHueAsync();
