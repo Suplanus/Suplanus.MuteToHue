@@ -4,7 +4,7 @@ from phue import Bridge
 import os
 import logging
 
-HUEBRIDGEIP = "192.168.178.79"
+HUEBRIDGEIP = "192.168.178.97"
 LIGHTNAME = "OnAir" # OnAir # Buro
 
 logging.basicConfig() # lgging
