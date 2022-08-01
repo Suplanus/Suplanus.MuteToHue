@@ -47,7 +47,7 @@ namespace Suplanus.MuteToHue
             {
                 StartInfo = new ProcessStartInfo
                 {
-                    FileName = "/bin/bash",
+                    FileName = "/bin/zsh",
                     Arguments = $"-c {QUOTE}{escapedArgs}{QUOTE}",
                     RedirectStandardOutput = true,
                     UseShellExecute = false,
